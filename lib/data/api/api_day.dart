@@ -4,6 +4,7 @@ class ApiDay {
   final String sunset;
   final String solarNoon;
   final num dayLength;
+
   ApiDay.fromApi(Map<String,dynamic> map)
   :sunrise = map['results']['sunrise'],
         sunset = map['results']['sunset'],

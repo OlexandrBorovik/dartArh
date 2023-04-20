@@ -1,6 +1,8 @@
 
+import 'package:flutter/cupertino.dart';
+
 class GetDayBody{
-  final double latitude;
+  final double latitude ;
   final double longitude;
 
   GetDayBody({

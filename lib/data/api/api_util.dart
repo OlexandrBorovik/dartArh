@@ -2,11 +2,14 @@
 import 'package:arhit/data/api/request/get_day_body.dart';
 import 'package:arhit/data/api/service/sunrise_service.dart';
 import 'package:arhit/data/mapper/day_mapper.dart';
+import 'package:flutter/cupertino.dart';
 
 import '../../domain/model/day.dart';
 
 class ApiUtil{
+
   final SunriseService _sunriseService;
+
   ApiUtil(this._sunriseService);
 
   Future<Day> getDay({
